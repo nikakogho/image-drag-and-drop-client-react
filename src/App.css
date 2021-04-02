@@ -1,3 +1,7 @@
+body {
+  background-color: #3898b6;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.drop:hover {
+  cursor: pointer;
 }
